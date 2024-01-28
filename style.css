@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.status {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+body {
+    background-image: url('https://i.etsystatic.com/48102840/r/il/5727f0/5589441521/il_794xN.5589441521_lk2u.jpg');
+}
